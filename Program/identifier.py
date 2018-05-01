@@ -19,6 +19,8 @@ for comment in all_comments:
 
 counter = 0
 for comment in new_list:
+	if comment[1] == '2':
+		continue
 	counter = 1
 	for section in comment:
 		if counter == 3:
